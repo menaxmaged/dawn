@@ -6,15 +6,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "AT  NINE",
             "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
           }
         },
         "button": {
@@ -31,16 +24,17 @@
       },
       "block_order": [
         "heading",
-        "text",
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/WhatsApp_Image_2024-11-03_at_4.56.13_PM.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
@@ -197,14 +191,32 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "timeless_pieces_Cy6Ktg": {
+      "type": "timeless-pieces",
+      "settings": {
+        "secondary_text": "We create unisex jewelry that stands the test of time, blending silent luxury with everyday versatility. Every piece is designed to celebrate individuality, with a commitment to quality and inclusivity."
+      }
+    },
+    "never_ending_section_RURGDh": {
+      "type": "never-ending-section",
+      "settings": {
+        "subheading": "Crafted By Time, Guided By The Star",
+        "description": "Our collections draw from the eternal cycles of time, reflecting the radiant energy of day and the serene elegance of night.",
+        "link_text": "About us",
+        "background_image": "shopify://shop_images/cc_1.png"
+      }
     }
   },
   "order": [
+
     "image_banner",
     "rich_text",
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+     "timeless_pieces_Cy6Ktg",
+    "never_ending_section_RURGDh"
   ]
 }
